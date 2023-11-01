@@ -4,7 +4,7 @@ import { html } from "@codemirror/lang-html";
 import { css } from "@codemirror/lang-css";
 import { javascript } from "@codemirror/lang-javascript";
 import Result from "./components/Compiled";
-import background from './assets/cities.jpg'; // Include the path to your image
+import background from './assets/cities.jpg';
 
 function App() {
   const [html_edit, setHtml_Edit] = useState("");
@@ -42,7 +42,7 @@ function App() {
           style={{
             backgroundImage: `url(${background})`,
             backgroundSize: "cover",
-            filter: "blur(5px)", // Adjust blur as needed
+            filter: "blur(5px)",
             zIndex: -1,
           }}
         ></div>
